@@ -1,12 +1,12 @@
-# Jenkins-Feature-Branching
-A project for testing Jenkins features and applying CI concepts on GitHub Branches.
+# Jenkins-Branching-Workflow
+A project for testing Jenkins Pipeline features and applying CI concepts on GitHub Branches.
 
-The project consists of 3 branches, feature_1, feature_2, and feature_3, with feature_3 being buggy.
+The project consists of 3 branches (supposed to be created by different developers), feature_1, feature_2, and feature_3, with feature_3 being buggy.
 
 This is the Jenkinsfile for configuring the pipepline for each branch:
 ![image](https://user-images.githubusercontent.com/43009893/197789359-11a380b7-cc5d-47f7-be2c-778b4c4968fc.png)
 
-When the 3 features were pushed to the remote repository, Jenkins scanned the project and ran the pipeline stages on each one:
+When the features are pushed to the remote repository, Jenkins scans the project and ran the pipeline stages on each one:
 
 ![image](https://user-images.githubusercontent.com/43009893/197789662-bcf152b8-7833-4f76-bc73-d745e8b8fe6a.png)
 
